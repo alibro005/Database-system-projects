@@ -37,7 +37,7 @@ A complete Oracle database solution for managing university students, courses, d
 ##  Relationships
 
 
-<img src="images/relationship.png" width="500px" height="500px">
+<img src="images/relationship.png"  height="400px" width="550">
 
 ##  Installation
 
@@ -117,7 +117,7 @@ GROUP BY d.dept_name;
 ## Data Model
 
 
-<img src="images/data.png" width="500px" hieght="500px">
+<img src="images/data.png" height="400px" width="550">
 
 
 | Constraint            | Description                          |
