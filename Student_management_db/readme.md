@@ -37,7 +37,7 @@ A complete Oracle database solution for managing university students, courses, d
 ##  Relationships
 
 
-<img src="images/relationship.png" width="500px">
+<img src="images/relationship.png" width="500px" hieght="500px">
 
 ##  Installation
 
@@ -54,11 +54,8 @@ A complete Oracle database solution for managing university students, courses, d
    git clone https://github.com/yourusername/student-management-db.git
    cd student-management-db
 
-<<<<<<< HEAD
    ```
-=======
  ```
->>>>>>> b7566fd37451170bb352a08515157cde5105dee5
 2. Execute the SQL scripts:
 
 ```
@@ -120,7 +117,7 @@ GROUP BY d.dept_name;
 ## Data Model
 
 
-<img src="images/data.png" width="500px">
+<img src="images/data.png" width="500px" hieght="500px">
 
 
 | Constraint            | Description                          |
