@@ -54,8 +54,8 @@ A complete Oracle database solution for managing university students, courses, d
    git clone https://github.com/yourusername/student-management-db.git
    cd student-management-db
 
-   ```
  ```
+ 
 2. Execute the SQL scripts:
 
 ```
