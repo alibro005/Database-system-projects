@@ -36,7 +36,8 @@ A complete Oracle database solution for managing university students, courses, d
 
 ##  Relationships
 
-![Database Relationship Diagram](images/relationship.png)
+
+<img src="images/relationship.png" width="500px">
 
 ##  Installation
 
@@ -48,12 +49,16 @@ A complete Oracle database solution for managing university students, courses, d
 ### Setup Steps
 1. Clone the repository:
 
-   ```bash
+```bash
 
    git clone https://github.com/yourusername/student-management-db.git
    cd student-management-db
 
+<<<<<<< HEAD
    ```
+=======
+ ```
+>>>>>>> b7566fd37451170bb352a08515157cde5105dee5
 2. Execute the SQL scripts:
 
 ```
@@ -114,7 +119,8 @@ GROUP BY d.dept_name;
 
 ## Data Model
 
-![Database data model](images/data.png)
+
+<img src="images/data.png" width="500px">
 
 
 | Constraint            | Description                          |
