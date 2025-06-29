@@ -54,7 +54,7 @@ A complete Oracle database solution for managing university students, courses, d
    cd student-management-db
 
    ```
-2.Execute the SQL scripts:
+2. Execute the SQL scripts:
 
 ```
 -- Create tables
@@ -64,7 +64,7 @@ A complete Oracle database solution for managing university students, courses, d
 @sample_data.sql
 
 ```
-3.Verify installation:
+3. Verify installation:
 
 ```
 SELECT *  FROM tab;
