@@ -52,11 +52,11 @@ These projects were developed to demonstrate skills in:
 
 ##  Contact
 
-Created by **Muhammad Ali Siddiqui**  
+Created by **Me**  
 [Email](itsalibro9@gmail.com) | [linkedin](https://linkedin.com/in/alibro005)
 
 ---
 
-## 📄 License
+##  License
 
-These projects are intended for educational use. Feel free to fork, modify, and use them in your learning or coursework.
+This repository is licensed under the [MIT License](LICENSE).
