@@ -1,7 +1,7 @@
 
 #  Global Car Manufacturer Database (Oracle SQL)
 
-![Database ER Diagram](global_car_ERD.png)
+![Database ER Diagram](global_car_ERD.pdf)
 
 This project presents a relational database schema designed for a **Global Car Manufacturing Company**, modeled through a comprehensive Entity-Relationship Diagram (ERD). The goal is to represent real-world automotive operations including customer relationships, production, maintenance, and dealership networks.
 
