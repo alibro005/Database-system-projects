@@ -1,19 +1,19 @@
-# 🗃 Database Projects Collection
+#  Database Projects Collection
 
 Welcome to my repository containing **two complete relational database management systems (RDBMS)**. Each project is built using SQL with a strong focus on normalization, data integrity, and real-world use cases.
 
 ---
 
-## 📦 Projects Overview
+##  Projects Overview
 
-### 1. 🚗 Global Car Manufacturer Database  (Made a Databse systems Project)
+### 1. Global Car Manufacturer Database  (Made as Database systems Project)
 A relational database system designed for a global automobile company. It manages:
 
 - Car models, manufacturers, features, and production plants  
 - Sales across different regions and revenue tracking  
 - Customers, dealerships, and maintenance records  
 
-📂 Project Folder: [`/Global-Car-Manufacturer-DB`](./Global_car_db)  
+📂 Project Folder: [`/Global_car_db`](./Global_car_db)  
 📄 [View README](./Global_car_db/readme.md)
 
 ---
@@ -25,7 +25,7 @@ A complete academic management system that handles:
 - Students and their enrollments  
 - Grades and academic structure following 3NF  
 
-📂 Project Folder: [`/University-DB-System`](./Student_management_db)  
+📂 Project Folder: [`/Student_management_db`](./Student_management_db)  
 📄 [View README](./Student_management_db/readme.md)
 
 ---
