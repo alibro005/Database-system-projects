@@ -18,7 +18,7 @@ A relational database system designed for a global automobile company. It manage
 
 ---
 
-### 2. 🎓 University Database Management System  
+### 2.  University Database Management System  
 A complete academic management system that handles:
 
 - Departments, instructors, and courses  
@@ -30,7 +30,7 @@ A complete academic management system that handles:
 
 ---
 
-## 📌 Technologies Used
+##  Technologies Used
 
 - SQL (Oracle-compatible syntax)  
 - Entity Relationship Diagrams (ERD)  
@@ -39,7 +39,7 @@ A complete academic management system that handles:
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 These projects were developed to demonstrate skills in:
 
@@ -50,11 +50,11 @@ These projects were developed to demonstrate skills in:
 
 ---
 
-## 📬 Contact
+##  Contact
 
 Created by **Muhammad Ali Siddiqui**  
 📧 [itsalibro9@gmail.com]  
-🔗 linkedin: [linkedin](https://linkedin.com/in/alibro005)
+🔗 [linkedin](https://linkedin.com/in/alibro005)
 
 ---
 
