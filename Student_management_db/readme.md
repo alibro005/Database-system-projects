@@ -39,8 +39,6 @@ This is the schema Diagram of Student Management Database :
 ##  Relationships
 
 
-## 🔗 Relationships (As per Schema)
-
 ### 🔹 1. **Department → Students**
 - **One-to-Many**  
   A department can have multiple students, but each student belongs to one department.  
