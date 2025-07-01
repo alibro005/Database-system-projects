@@ -1,4 +1,4 @@
-#  Database Projects Collection
+#  Database Systems Projects 
 
 Welcome to my repository containing **two complete relational database management systems (RDBMS)**. Each project is built using SQL with a strong focus on normalization, data integrity, and real-world use cases.
 
