@@ -1,5 +1,5 @@
 
-###  University Student Management System (Oracle SQL)
+#  University Student Management System (Oracle SQL)
 
 ![Database ER Diagram](student_ERD.png)
 
@@ -32,12 +32,55 @@ A complete Oracle database solution for managing university students, courses, d
 
 ##  Database Schema
 
+This is the schema Diagram of Student Management Database :
+
 ![Database Schema Diagram](images/schema.png)
 
 ##  Relationships
 
 
-<img src="images/relationship.png"  height="400px" width="550">
+## 🔗 Relationships (As per Schema)
+
+### 🔹 1. **Department → Students**
+- **One-to-Many**  
+  A department can have multiple students, but each student belongs to one department.  
+  **FK**: `STUDENTS.DEPARTMENT_ID → DEPARTMENT.DEPARTMENT_ID`
+
+---
+
+### 🔹 2. **Department → Instructors**
+- **One-to-Many**  
+  A department can have multiple instructors, but each instructor is associated with one department.  
+  **FK**: `INSTRUCTOR.DEPARTMENT_ID → DEPARTMENT.DEPARTMENT_ID`
+
+---
+
+### 🔹 3. **Department → Courses**
+- **One-to-Many**  
+  A department can offer multiple courses, but each course belongs to one department.  
+  **FK**: `COURSES.DEPARTMENT_ID → DEPARTMENT.DEPARTMENT_ID`
+
+---
+
+### 🔹 4. **Instructor → Courses**
+- **One-to-Many**  
+  An instructor can teach multiple courses, but each course is assigned to one instructor.  
+  **FK**: `COURSES.INSTRUCTOR_ID → INSTRUCTOR.INSTRUCTOR_ID`
+
+---
+
+### 🔹 5. **Student → Enrollments**
+- **One-to-Many**  
+  A student can enroll in multiple courses, but each enrollment record refers to one student.  
+  **FK**: `ENROLLMENTS.STUDENT_ID → STUDENTS.STUDENT_ID`
+
+---
+
+### 🔹 6. **Course → Enrollments**
+- **One-to-Many**  
+  A course can have multiple students enrolled, but each enrollment record refers to one course.  
+  **FK**: `ENROLLMENTS.COURSE_ID → COURSES.COURSE_ID`
+
 
 ##  Installation
 
@@ -117,7 +160,7 @@ GROUP BY d.dept_name;
 ## Data Model
 
 
-<img src="images/data.png" height="400px" width="550">
+View full ERD of this : [click here](student_ERD.pdf)
 
 
 | Constraint            | Description                          |
