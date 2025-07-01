@@ -53,8 +53,7 @@ These projects were developed to demonstrate skills in:
 ##  Contact
 
 Created by **Muhammad Ali Siddiqui**  
-📧 [itsalibro9@gmail.com]  
-🔗 [linkedin](https://linkedin.com/in/alibro005)
+[Email](itsalibro9@gmail.com) | [linkedin](https://linkedin.com/in/alibro005)
 
 ---
 
