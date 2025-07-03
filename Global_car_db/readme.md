@@ -36,7 +36,28 @@ This database project includes well-structured relational models representing:
 
 ##  Database Schema
 
-This is the schema diagram of Global Car Manufacturer Database :
+### CarModel Table :
+| Column Name      | Data Type     | Constraints | Description                           |
+| ---------------- | ------------- | ----------- | ------------------------------------- |
+| model\_id        | NUMBER(10)    | PRIMARY KEY | Unique ID for the car model           |
+| model\_name      | VARCHAR2(100) | NOT NULL    | Name of the car model                 |
+| engine\_type     | VARCHAR2(50)  |             | Type of engine (e.g., Hybrid, Petrol) |
+| launch\_year     | NUMBER(4)     |             | Year of launch                        |
+| manufacturer\_id | NUMBER(10)    | FOREIGN KEY | Linked to Manufacturer                |
+| plant\_id        | NUMBER(10)    | FOREIGN KEY | Linked to Production Plant            |
+
+### Customer Table :
+
+| Column Name     | Data Type     | Constraints | Description            |
+| --------------- | ------------- | ----------- | ---------------------- |
+| customer\_id    | NUMBER(10)    | PRIMARY KEY | Unique ID for customer |
+| name            | VARCHAR2(100) | NOT NULL    | Customer full name     |
+| contact\_number | VARCHAR2(20)  |             | Phone number           |
+| address         | VARCHAR2(255) |             | Address                |
+| model\_id       | NUMBER(10)    | FOREIGN KEY | Purchased car model    |
+| dealer\_id      | NUMBER(10)    | FOREIGN KEY | Linked to Dealership   |
+
+This is the Full schema diagram of Global Car Manufacturer Database :
 
 ![Database Schema Diagram](images/schema.png)
 
